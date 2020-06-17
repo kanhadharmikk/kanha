@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Kanha Dharmik</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-image: url(images/bg-desktop.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+
+
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      bottom: 10px;
+      position: absolute;
+      color: white;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    /* body{ */
+    /* background-image: url(images/bg-desktop.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: ; */
+    /* } */
+    .image {
+      background-color: hsl(228, 56%, 26%);
+      height: 80px;
+      width: 20%;
+      padding: 45px 0px 75px 40px;
+      border-radius: 8px;
+      border-top-right-radius: 100px;
+      margin-left: 20%;
+      margin-top: 13%;
+    }
+
+    .logo {
+      margin-bottom: 25px;
+    }
+
+    .document {
+      margin-right: 15px;
+      padding: 15px;
+      background-color: hsl(229, 57%, 11%);
+      border-radius: 10px;
+    }
+
+    .img1 {
+      height: 20px;
+      width: 20px;
+
+    }
+
+    .img2 {
+      height: 20px;
+      width: 20px;
+
+    }
+
+    .img3 {
+      height: 20px;
+      width: 20px;
+
+    }
+
+    .box {
+      background-color: hsl(228, 56%, 26%);
+      height: 150px;
+      width: 33%;
+      margin-left: 45%;
+      top: 250px;
+      position: absolute;
+      border-radius: 10px;
+
+    }
+
+    .b1 {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+      position: absolute;
+      top: 26px;
+      left: 52px;
+
+    }
+
+    .b3 {
+      color: white;
+      font-size: small;
+      position: absolute;
+      top: 90px;
+      left: 52px;
+
+    }
+
+    .b4 {
+      color: white;
+      font-size: small;
+      position: absolute;
+      top: 90px;
+      left: 401px;
+
+    }
+
+
+    progress {
+      -webkit-appearance: none;
+      width: 28rem;
+      margin-top: 5rem;
+      padding-left: 53px;
+
+    }
+    }
+
+    progress::-webkit-progress-bar {
+      background: hsl(229, 57%, 11%);
+
+      border-radius: 10px;
+    }
+
+    progress::-webkit-progress-value {
+      background: linear-gradient(90deg, rgb(218, 182, 132) 40%, rgb(253, 110, 44) 100%);
+      border-radius: 10px;
+    }
+
+    .left {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 73%, 100% 100%, 76% 75%, 0% 75%);
+      background: hsl(240, 10%, 94%);
+      color: hsl(229, 7%, 55%);
+      width: 8rem;
+      height: 6rem;
+      border-radius: 20px 20px 0 20px;
+      display: flex;
+      justify-content: center;
+      padding-top: 1.2rem;
+      position: absolute;
+      right: 90px;
+      top: -40px
+    }
+
+    .left span {
+      font-size: 2rem;
+      font-weight: 700;
+      color: hsl(229, 57%, 11%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class=image>
+    <img class="logo" src="images/logo.svg" alt="">
+    <div><img class="document img1" src="images/icon-document.svg" alt="">
+      <img class="document img2" src="images/icon-folder.svg" alt="">
+      <img class="document img3" src="images/icon-upload.svg" alt=""></div>
+
+  </div>
+
+
+  <div class="box">
+    <p class="b1">You’ve used <strong>815 GB</strong> of your storage </p>
+    <progress max="1000" value="815"></progress>
+
+    <div class="left">
+      <p><span>185</span> Gb left</p>
+    </div>
+
+    <p class="b3">0 GB</p>
+    <p class="b4">1000 GB</p>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.instagram.com/kanhadharmik_/" target="_blank">Kanha Dharmik</a>.
+  </div>
+</body>
+
+</html>
